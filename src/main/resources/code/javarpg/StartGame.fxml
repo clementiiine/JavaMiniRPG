@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="600.0" maxWidth="1100.0" minHeight="600.0" minWidth="1100.0" prefHeight="600.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="code.javarpg.GUIController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="1100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@2070.jpg" />
+         </image>
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+      </ImageView>
+      <Button fx:id="btnnewgameWindow" layoutX="431.0" layoutY="268.0" maxHeight="63.0" maxWidth="237.0"
+              minHeight="44.0" minWidth="165.0" mnemonicParsing="false" onAction="#handlebtnNewGameWindow"
+              opacity="0.74" prefHeight="63.0" prefWidth="237.0" style="-fx-background-color: SLATEGRAY;"
+              text="Start a new game" textFill="WHITE">
+         <font>
+            <Font name="Corbel Light" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
